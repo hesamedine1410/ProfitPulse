@@ -31,5 +31,5 @@ ProfitPulse is a cutting-edge AI-driven trading bot designed to analyze financia
 ### Setup  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/YourUsername/ProfitPulse.git
+   git clone https://github.com/hesamedine1410/ProfitPulse.git
    cd ProfitPulse
