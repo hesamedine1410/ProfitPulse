@@ -23,10 +23,40 @@ ProfitPulse is a cutting-edge AI-driven trading bot designed to analyze financia
 
 ---
 
+## Project Overview  
+ProfitPulse is designed to simplify intraday trading for both novice and professional traders. It uses real-time data analysis, AI predictions, and automated execution to provide a seamless trading experience.  
+
+---
+
 ## Getting Started  
 ### Prerequisites  
 - Python 3.8+ installed on your system.  
-- A financial trading platform account (e.g., Binance, MetaTrader).  
+- A financial trading platform account (e.g., Binance, MetaTrader). 
+
+---
+
+## Roadmap
+- [ ] Implement data fetching from multiple platforms.
+- [ ] Build and train predictive AI models.
+- [ ] Develop an intuitive user interface (optional).
+- [ ] Enhance trade execution logic for faster performance.
+
+---
+
+## Contributing
+- Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
+
+---
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## Disclaimer
+ProfitPulse is intended for educational purposes only. Trading involves substantial risk and may not be suitable for everyone. Use this tool at your own discretion.
+
+---
 
 ### Setup  
 1. Clone the repository:  
