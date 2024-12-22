@@ -11,7 +11,7 @@ if not mt5.initialize():
 
 # تعریف نماد و بازه زمانی
 # Define symbol and timeframe
-symbol = "EURUSD!"  # نماد معاملاتی  # Trading symbol
+symbol = "ETHUSD"  # نماد معاملاتی  # Trading symbol
 if not mt5.symbol_select(symbol):
     print(f"Received historical data for {symbol}:")
     mt5.shutdown()
