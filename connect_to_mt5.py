@@ -21,3 +21,25 @@ else:
 # خاتمه اتصال
 # Terminate connection
 mt5.shutdown()
+
+import MetaTrader5 as mt5
+
+# Initialize MT5
+# MT5 را راه اندازی کنید
+if not mt5.initialize():
+    print(f"Failed to initialize MT5, error code: {mt5.last_error()}")
+    quit()
+
+# Login to MT5
+# وارد MT5 شوید
+login = 12345678  # شماره حساب  # Account number
+password = "your_password"  # رمز عبور حساب     # Account password
+server = "YourBroker-Server"  # سرور بروکر شما  # Your broker server
+
+if not mt5.login(login, password, server):
+    print(f"Failed to login, error: {mt5.last_error()}")
+    mt5.shutdown()
+    quit()
+
+print("Successfully connected to MT5!")
+mt5.shutdown()
